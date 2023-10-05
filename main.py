@@ -216,6 +216,7 @@ if __name__ == '__main__':
     book.add_record(Record(name='Kolya', phone='4567890123', birthday='16.03.1993'))
     book.add_record(Record(name='Misha', phone='3210987654', birthday='08.01.1990'))
 
+    
     iterator = book.iterator()
     for page in iterator:
         print(page)
